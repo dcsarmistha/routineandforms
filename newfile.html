@@ -1,0 +1,150 @@
+ CLASS ROUTINE:-
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 align="center">TRINITY INTERNATIONAL COLLEGE</h1>
+    <h2 align="center">5TH SEM ROUTINE(BSC.CSIT)</h2>
+    <table border ="1" cellpadding="10" cellspacing="0" align="center" width="1340px" height="350px">
+        <td align="center" style="font-size:25px;">TIME</td>
+        <td align="center" style="font-size:25px;">SUN</td>
+        <td align="center" style="font-size:25px;">MON</td>
+        <td align="center" style="font-size:25px;">TUE</td>
+        <td align="center" style="font-size:25px;">WED</td>
+        <td align="center" style="font-size:25px;">THU</td>
+        <td align="center" style="font-size:25px;">FRI</td>
+        <br>
+        <tr>
+        <td align="center">11:15-12:15</td>
+        <td align="center">SAD</td>
+        <td align="center">SAD</td>
+        <td align="center">SAD</td>
+        <td align="center">SAD</td>
+        <td align="center">Cryptography</td>
+        <td align="center">SAD</td>
+    </tr>
+    <br>
+        <tr>
+        <td align="center">12:15-01:15</td>
+        <td align="center">Simulation</td>
+        <td align="center">Cryptography</td>
+        <td align="center">Simulation</td>
+        <td align="center">Simulation</td>
+        <td align="center">Simulation/SAD</td>
+        <td align="center">Simulation</td>
+    </tr>
+    <br>
+    <tr>
+        <td align="center">01:15-01:30</td>
+        
+        <td align="center" colspan="6">SHORT BREAK</td>
+       
+    </tr>
+</td>
+    <br>
+        <tr>
+        <td align="center">01:30-02:30</td>
+        <td align="center">Web Tech</td>
+        <td align="center">Web Tech</td>
+        <td align="center">Web Tech</td>
+        <td align="center">Cryptography</td>
+        <td align="center">Web Tech</td>
+        <td align="center">Web Tech</td>
+    </tr>
+    <br>
+    <tr>
+        <td align="center">02:30-03:00</td>
+        <td align="center" colspan="6">LUNCH BREAK</td>
+    </tr>
+    <br>
+    <tr>
+        <td align="center">03:00-04:00</td>
+        <td align="center">DAA</td>
+        <td align="center">DAA</td>
+        <td align="center">DAA</td>
+        <td align="center">DAA</td>
+        <td align="center">DAA</td>
+        <td align="center">DAA</td>
+</tr>
+<br>
+        <tr>
+        <td align="center">04:00-05:00</td>
+        <td align="center">Multimedia</td>
+        <td align="center">Multimedia</td>
+        <td align="center">Cryptography</td>
+        <td align="center">Multimedia</td>
+        <td align="center">Multimedia</td>
+        <td align="center">Multimedia</td>
+    </tr>
+</table>
+</body>
+</html>
+
+
+LOGIN AND REGISTRATION PAGE:-
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form action="/" method="post" name="login" > 
+        <fieldset>
+<input type="text" name="username" placeholder="Username" minlength="5" maxlength="25" required >
+<input type="text" name="password" placeholder="Password" minlength="8" maxlength="15" required >
+<input type="submit" name="login" value="login">
+    </fieldset>
+    </form>
+  <form action="" method="post" name="register" enctype="multipart/form-data">
+
+    <fieldset>
+        <legend>
+            User registration
+        </legend>
+        <label >username</label>
+        <input type="text" name="username" required>
+        <br>
+        <label >password</label>
+        <input type="password" name="password" required>
+        <br>
+        <label >email</label>
+        <input type="email" name="email" required>
+        <br>
+        
+        <label >Gender</label>
+        <input type="radio" name="Gender" value="male" required>male
+        <input type="radio" name="Gender" value="female" required>female
+        <input type="radio" name="Gender" value="other" required>other
+        <br>
+        <label>DOB</label>
+        <input type="date" name="dob">
+        <br>
+
+        <label>district</label>
+        <select name="district" size='1'>
+            <option value="Kathmandu">Kathmandu</option>
+            <option value="Lalitpur">lalitpur</option>
+            <option value="Dhangadi">Dhangadi</option>
+            <option value="Jhapa">Jhapa</option>
+            <option value="Others">Others</option>
+        </select>
+        <br>
+        <label>Course</label>
+        <input type="checkbox" name="course[]" value="php">php
+        <input type="checkbox" name="course[]" value="java">java
+        <input type="checkbox" name="course[]" value="asp" checked>Asp
+        <br>
+        <label>Photo</label>
+        <input type="file" name="Photo">
+        <br>
+        <label >Message</label>
+        <textarea name="Message" rows="8" cols="50">
